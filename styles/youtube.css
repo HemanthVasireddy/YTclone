@@ -1,0 +1,20 @@
+
+body{
+    margin: 0;
+    color: black;
+    padding-bottom: 1000px;
+    padding-top: 130px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.home-page{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2.5em;
+    row-gap: 1em;
+}
+
+
+
+

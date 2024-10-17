@@ -1,0 +1,29 @@
+.control-panel{
+    display: flex;
+    width: 100px;
+    background-color: rgb(246, 244, 244);
+    flex-direction: column;
+    position: fixed;
+    top: 70px;
+    bottom: 0;
+    left: 0;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+
+.home-icon,.explore-icon,.subscriptions-icon,.originals-icon,.youtube-music-icon,.library-icon{
+    height: 44px;
+    object-fit: contain;
+}
+
+.control-elements{
+    align-items: center;
+    text-align: center;
+    width: 100px;
+    padding-top: 10px;
+}
+
+.control-elements:hover{
+    background-color: lightgray;
+}

@@ -1,0 +1,113 @@
+
+.header{
+    height: 45px;
+    padding-top: 20px;
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(220, 211, 211);
+    background-color: rgb(246, 244, 244);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0;
+    z-index: 100;
+}
+
+.voice-search-button{
+    height: 44px;
+    border: 0;
+    border-radius: 30px;
+}
+
+.voice-search-icon,.notifications-icon,.upload-icon,.upload-icon2,.youtube-apps-icon{
+    height: 44px;
+    object-fit: contain;
+}
+
+.left-section{
+    flex-shrink: 30px;
+    margin-left: 30px;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu{
+    object-fit: contain;
+    height: 40px;
+    margin-right: 40px;
+}
+
+.logo{
+    object-fit: contain;
+    height: 40px;
+}
+
+.middle-section{
+    flex: 2;
+    display: flex;
+    height: 55px;
+    margin-left: 35px;
+    margin-right: 35px;
+    align-items: center;
+}
+
+.right-section{
+    width: 350px;
+    display: flex;
+    height: 55px;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+
+.search-box{
+    flex: 10;
+    width: 0;
+    padding-left: 30px;
+    padding-bottom: 4px;
+    height: 40px;
+    font-size: 25px;
+    border: 0;
+    border-bottom-left-radius: 30px;
+    border-top-left-radius: 30px;
+    background-color: rgb(220, 219, 219);
+}
+
+.search-box:active{
+    border-width: 10px;
+}
+
+.search-button{
+    flex: 1;
+    height: 45px;
+    border: 0;
+    background-color: rgb(220, 219, 219);
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-right: 20px;
+}
+
+.search-icon{
+    object-fit: contain;
+    height: 40px;
+}
+
+.notifications-div{
+    position: relative;
+}
+.notifications-number{
+    position: absolute;
+    background-color: rgb(187, 17, 17);
+    color: white;
+    font-size: 18px;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-radius: 10px;
+    top: -3px;
+    right: -3px;
+}
